@@ -1,0 +1,11 @@
+# задание 4
+number = int(input('Введите трехзначное число: '))
+a = (number // 100)
+b = (number % 100 // 10)
+c = (number % 10)
+print(a, b, c)
+print(a, c, b)
+print(b, a, c)
+print(b, c, a)
+print(c, a, b)
+print(c, b, a)
